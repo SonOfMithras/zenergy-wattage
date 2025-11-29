@@ -4,8 +4,7 @@ A KDE Plasma 6 widget that displays the real-time CPU Package Power wattage. It 
 
 Tested on Plasma 6.5.3 with KDE Frameworks 6.20.0 on Arch Linux (CachyOS)
 
-![Zenergy Wattage Screenshot](https://via.placeholder.com/800x400?text=Zenergy+Wattage+Widget) 
-*(Replace this link with a real screenshot if you have one)*
+//![Zenergy Wattage Screenshot](https://via.placeholder.com/800x400?text=Zenergy+Wattage+Widget) 
 
 ## Features
 - **Real-time Monitoring**: Updates CPU wattage every second.
