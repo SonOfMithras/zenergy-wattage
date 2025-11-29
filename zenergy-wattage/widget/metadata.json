@@ -1,0 +1,28 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "ammar.alriyamy@gmail.com",
+                "Name": "Ammar Al-Riyamy"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "Monitors CPU Package Wattage via zenergy kernel module",
+        "EnabledByDefault": true,
+        "Icon": "utilities-system-monitor",
+        "Id": "com.antigravity.zenergywattage",
+        "License": "GPL-2.0+",
+        "Name": "Zenergy Wattage",
+        "Version": "0.5.0",
+        "Website": "",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ]
+    },
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-ConfigPlugins": [
+        "org.kde.plasma.configuration.general"
+    ]
+}
