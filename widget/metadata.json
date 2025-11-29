@@ -16,7 +16,7 @@
         "License": "GPL-2.0+",
         "Name": "Zenergy Wattage",
         "Version": "0.5.0",
-        "Website": "",
+        "Website": "https://github.com/SonOfMithras/zenergy-wattage",
         "ServiceTypes": [
             "Plasma/Applet"
         ]
