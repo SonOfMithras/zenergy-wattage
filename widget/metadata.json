@@ -12,11 +12,11 @@
         "Description": "Monitors CPU Package Wattage via zenergy kernel module",
         "EnabledByDefault": true,
         "Icon": "utilities-system-monitor",
-        "Id": "com.antigravity.zenergywattage",
+        "Id": "zergy.wattage.monitor",
         "License": "GPL-2.0+",
         "Name": "Zenergy Wattage",
         "Version": "0.5.0",
-        "Website": "https://github.com/SonOfMithras/zenergy-wattage",
+        "Website": "",
         "ServiceTypes": [
             "Plasma/Applet"
         ]

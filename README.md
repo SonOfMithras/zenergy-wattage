@@ -89,7 +89,7 @@ To remove the widget from your system:
         - Check status: `systemctl status zenergy-wattage`
     - **If NOT using the service**:
         - You must run the monitor manually. The widget includes the script at:
-          `~/.local/share/plasma/plasmoids/com.antigravity.zenergywattage/contents/scripts/monitor.py`
-        - Run it with: `python3 ~/.local/share/plasma/plasmoids/com.antigravity.zenergywattage/contents/scripts/monitor.py`
+          `~/.local/share/plasma/plasmoids/zergy.wattage.monitor/contents/scripts/monitor.py`
+        - Run it with: `python3 ~/.local/share/plasma/plasmoids/zergy.wattage.monitor/contents/scripts/monitor.py`
     - Check if the log file exists: `ls -l ~/.local/share/zenergy-wattage/cpu_wattage.log`
 - **Graph Line Not Updating**: Try toggling the "Line Color Mode" in settings. (This issue should be resolved in v0.5.0+).

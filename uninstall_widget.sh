@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WIDGET_ID="com.antigravity.zenergywattage"
+WIDGET_ID="zergy.wattage.monitor"
 
 if command -v kpackagetool6 &> /dev/null; then
     KTOOL="kpackagetool6"

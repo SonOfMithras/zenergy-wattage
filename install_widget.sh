@@ -2,7 +2,7 @@
 
 WIDGET_DIR="widget"
 
-WIDGET_ID="com.antigravity.zenergywattage"
+WIDGET_ID="zergy.wattage.monitor"
 TEMP_DIR="build_widget"
 
 if command -v kpackagetool6 &> /dev/null; then
