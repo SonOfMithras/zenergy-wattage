@@ -1,5 +1,7 @@
 # Zenergy Wattage Widget
 
+![Zenergy Wattage Screenshot](https://github.com/SonOfMithras/zenergy-wattage/blob/main/Zenergy%20screen%202.png?raw=true)
+
 A KDE Plasma 6 widget that displays the real-time CPU Package Power wattage. It uses the `zenergy` kernel module to read energy data and visualizes it with a customizable graph and text. It was developed for personal use with the use of Google's Antigravity.
 
 Tested on Plasma 6.5.3 with KDE Frameworks 6.20.0 on Arch Linux (CachyOS)
