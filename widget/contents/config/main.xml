@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+
+  <group name="Appearance">
+    <entry name="backgroundColorMode" type="Enum">
+      <label>Background Color Mode</label>
+      <choices>
+        <choice name="System">
+          <label>System Theme</label>
+        </choice>
+        <choice name="Transparent">
+          <label>Transparent</label>
+        </choice>
+        <choice name="Custom">
+          <label>Custom Color</label>
+        </choice>
+      </choices>
+      <default>System</default>
+    </entry>
+    <entry name="customBackgroundColor" type="Color">
+      <label>Custom Background Color</label>
+      <default>#000000</default>
+    </entry>
+    <entry name="appletBackgroundMode" type="Int">
+      <label>Desktop Background</label>
+      <default>0</default>
+    </entry>
+    <entry name="backgroundOpacity" type="Int">
+      <label>Background Opacity</label>
+      <default>100</default>
+      <min>0</min>
+      <max>100</max>
+    </entry>
+    <entry name="fontFamily" type="String">
+      <label>Font Family</label>
+    </entry>
+    <entry name="fontSize" type="Int">
+      <label>Font Size</label>
+      <default>24</default>
+    </entry>
+    <entry name="textBold" type="Bool">
+      <label>Text Bold</label>
+      <default>false</default>
+    </entry>
+    <entry name="textItalic" type="Bool">
+      <label>Text Italic</label>
+      <default>false</default>
+    </entry>
+    <entry name="textUnderline" type="Bool">
+      <label>Text Underline</label>
+      <default>false</default>
+    </entry>
+    <entry name="textPosition" type="Int">
+      <label>Text Position</label>
+      <default>0</default>
+    </entry>
+  </group>
+
+  <group name="Graph">
+    <entry name="showGraph" type="Bool">
+      <label>Show Wattage Graph</label>
+      <default>true</default>
+    </entry>
+    <entry name="graphDuration" type="Int">
+      <label>Graph Duration (Minutes)</label>
+      <default>5</default>
+      <min>1</min>
+      <max>10</max>
+    </entry>
+    <entry name="graphColorMode" type="Enum">
+      <label>Graph Color Mode</label>
+      <choices>
+        <choice name="System">
+          <label>System Theme</label>
+        </choice>
+        <choice name="Custom">
+          <label>Custom Color</label>
+        </choice>
+      </choices>
+      <default>System</default>
+    </entry>
+    <entry name="graphLineColor" type="Color">
+      <label>Graph Line Color</label>
+      <default>#3daee9</default> <!-- Highlight Blue -->
+    </entry>
+    <entry name="graphLineWidth" type="Int">
+      <label>Graph Line Width</label>
+      <default>2</default>
+      <min>1</min>
+      <max>10</max>
+    </entry>
+  </group>
+
+  <group name="Text">
+    <entry name="textColorMode" type="Enum">
+      <label>Text Color Mode</label>
+      <choices>
+        <choice name="System">
+          <label>System Theme</label>
+        </choice>
+        <choice name="Custom">
+          <label>Custom Color</label>
+        </choice>
+      </choices>
+      <default>System</default>
+    </entry>
+    <entry name="customTextColor" type="Color">
+      <label>Custom Text Color</label>
+      <default>#ffffff</default>
+    </entry>
+</kcfg>
