@@ -1,6 +1,7 @@
 # Zenergy Wattage Widget
 
-![Zenergy Wattage Screenshot](https://github.com/SonOfMithras/zenergy-wattage/blob/main/Zenergy%20screen%202.png?raw=true)
+![Zenergy Wattage Desktop](Zenergy-screen.png)
+![Zenergy Wattage Popup](Zenergy-popup.png)
 
 Plasma 6 widget that displays the real-time CPU Package Power (in Watts) for Ryzen 9000 CPU's. It relies on the the `zenergy` kernel module to read energy data and visualizes it with a customizable graph and text. 
 
